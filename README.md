@@ -1,2 +1,2 @@
-# ensino-ordenacao
+# ord-comparacao
 Trabalho acadêmico de EDA
