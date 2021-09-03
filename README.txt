@@ -5,6 +5,13 @@ Escolhendo os métodos de ordenação a serem usados:
 3 - Shell Sort: Similarmente ao método Quick Sort, esse método apresenta semelhanças e diferenças com outro método. Especificamente, o Shell Sort é comparável ao método Insertion Sort, mas com a adição de um gap, ele tende a ter uma aproximação diferente, além de ser mais rápido na maioria dos casos.
 4 - Insertion Sort: Escolhido especificamente na intenção de provar, ou confirmar, que ele é mais lento que o Shell Sort, e se sim, em que casos.
 
+Update 02.09.21:
+(OBS: Tecnimicamente, eu comecei a trabalhar nos programas "criarvetor.c" e "moduloaprendizagem.c" no dia 31, mas eu decidi que só iria por eles quando todo estivessem prontos.)
+3 programas novos:
+"moduloaprendizagem.c" é aonde está o módulo de aprendizagem. Existem nele opções para checar informações em cada um dos métodos de ordenação escolhidos, e fazer testes com um número qualquer de elementos.
+"criarvetor.c" está incluso simplesmente para não precisar de um longo processo para criar vetores aleatórios, crescentes, e decrescentes. É utilizado nos dois módulos.
+"modulocomparacao.c" é o último dos programas a ser feito, todo no dia 02. Ele contém o módulo de comparação. Para rodar, o programa só precisa receber o número de métodos sendo avaliados de cada vez, o tipo de cada método, e a organização inicial. Ele ira imprimir o tempo de cada método tentando ordenar vetores de 1000, 5000, 10000, 20000 e 30000 elementos.
+
 
 SORTING ALGORITHMS. Geeks for Geeks, 2021. Disponível em: <https://www.geeksforgeeks.org/sorting-algorithms/>. Acesso em: 30 ago 2021.
 BUBBLE SORT. Geeks for Geeks, 2021. Disponível em: <https://www.geeksforgeeks.org/bubble-sort/>. Acesso em: 30 ago 2021.
